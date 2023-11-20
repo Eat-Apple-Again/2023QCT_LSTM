@@ -13,7 +13,9 @@ LSTM_model.png -> 用 torchviz印出LSTM的形狀
 
 
 在test_v2.ipynb中選擇UE的訓練資料，資料前處理(imsi、tac、timestamp)做encoding
+
 拆分成traning data和testing data
-最後的輸出為透過LSTM預測下個UE可能註冊的tac(bet wodk slice)
+
+最後的輸出為透過LSTM預測下個UE可能註冊的tac(network slice)
 
 這段code會部屬在QCT的server，我們在free5gc中加入NWDAF，驗證AnLF、MTLF的功能。
